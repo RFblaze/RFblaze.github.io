@@ -1,0 +1,27 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+
+#navbar{
+    border-top: 2px solid red;
+	background-color: #dddddd;
+	padding: 10px;
+    display: flex;
+    justify-items: center;
+}
+
+#navbar a{
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
