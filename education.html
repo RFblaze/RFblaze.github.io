@@ -4,50 +4,56 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Education</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="index.html">About</a>
-    <span> - </span>
-    <a href="skills.html">Skills</a>
-    <span> - </span>
-    <a href="education.html">Education</a>
-    <span> - </span>
-    <a href="experinece.html">Experience</a>
-    <span> - </span>
-    <a href="interests.html">Interests</a>
+    <div id="navbar">
+        <div><a href="index.html">About</a></div>
+        <div><a href="skills.html">Skills</a></div>
+        <div><a href="education.html" id="current_page">Education</a></div>
+        <div><a href="experinece.html">Experience</a></div>
+        <div><a href="interests.html">Interests</a></div>
+    </div>
     <br>
     <br>
-    <img src="screenshots/fb7.jpg" alt="sample" width="270" height="202">
-    <br>
-    <h1>Declan Akaba</h1>
-    <h2>Education</h2>
-    <table>
-        <tr>
-            <td><b>Elementary Graduation Certificate</b></td>
-            <td>2002-2009</td>
-        </tr>
-        <tr>
-            <td>Grapevine Elementary</td>
-            <td>Glasgow, UK</td>
-        </tr>
-        <tr>
-            <td><b>High School Diploma</b></td>
-            <td>2009-2015</td>
-        </tr>
-        <tr>
-            <td>A. Nigma Junior/High</td>
-            <td>Undella, UN</td>
-        </tr>
-        <tr>
-            <td><b>BSc in Software Engineering</b></td>
-            <td>2015-2019</td>
-        </tr>
-        <tr>
-            <td>Monsters University</td>
-            <td>Monstropolis, MU</td>
-        </tr>
-    </table>
-    <br>
-    <p><i><mark>Credentials are available upon request</mark></i></p>
+    <div id="container">
+        <div id="my_info">
+            <img src="my_portrait.jpg" id="portrait" alt="portrait" width="300px" height="300px">
+            <br>
+            <h1>Angelo Troncone</h1>
+            <h2>Programer</h2>
+        </div>
+        <div id="page_info">
+            <h1>Education</h2>
+            <table>
+                <tr>
+                    <td><b>Elementary Graduation Certificate</b></td>
+                    <td>2002-2009</td>
+                </tr>
+                <tr>
+                    <td>Grapevine Elementary</td>
+                    <td>Glasgow, UK</td>
+                </tr>
+                <tr>
+                    <td><b>High School Diploma</b></td>
+                    <td>2009-2015</td>
+                </tr>
+                <tr>
+                    <td>A. Nigma Junior/High</td>
+                    <td>Undella, UN</td>
+                </tr>
+                <tr>
+                    <td><b>BSc in Software Engineering</b></td>
+                    <td>2015-2019</td>
+                </tr>
+                <tr>
+                    <td>Monsters University</td>
+                    <td>Monstropolis, MU</td>
+                </tr>
+            </table>
+            <br>
+            <p><i><mark>Credentials are available upon request</mark></i></p>
+        </div>
+    </div>
 </body>
 </html>

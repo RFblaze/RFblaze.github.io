@@ -16,7 +16,7 @@ body{
 
 #navbar a{
     flex: 1;
-    margin: 60px;
+    margin: 50px;
 }
 
 a {
@@ -68,6 +68,3 @@ a:hover {
     flex-direction: column;
 }
 
-#page_info td{
-
-}
