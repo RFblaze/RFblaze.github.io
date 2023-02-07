@@ -1,6 +1,9 @@
+/* @media */
+/* General Selectors for all pages */
 body{
     width: 100%;
     margin: 0;
+    font-family: Cambria
 }
 
 #navbar{
@@ -8,11 +11,12 @@ body{
 	background-color: #dddddd;
 	padding: 10px;
     display: flex;
-    justify-items: center;
+    justify-content: center;
 }
 
 #navbar a{
     flex: 1;
+    margin: 60px;
 }
 
 a {
@@ -24,4 +28,33 @@ a:hover {
     text-decoration: underline;
 }
 
+.container{
 
+}
+
+#portrait{
+    border-radius: 150px;
+}
+
+#index_container{
+    display: flex;
+}
+
+#my_info{
+    margin-left: 10%;
+    justify-content: center;
+}
+
+#my_info h1{
+    text-align: center;
+}
+
+#my_info h2{
+    text-align: center;
+}
+
+#index_info{
+    margin-left: 5%;
+    padding-left: 3%;
+    border-left: 1px solid #252525;
+}

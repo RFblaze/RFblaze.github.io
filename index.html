@@ -7,45 +7,56 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="navbar">
-        <a href="index.html">About</a>
-        <a href="skills.html">Skills</a>
-        <a href="education.html">Education</a>
-        <a href="experinece.html">Experience</a>
-        <a href="interests.html">Interests</a>
+    <div class="container">
+        <div id="navbar">
+            <div><a href="index.html">About</a></div>
+            <div><a href="skills.html">Skills</a></div>
+            <div><a href="education.html">Education</a></div>
+            <div><a href="experinece.html">Experience</a></div>
+            <div><a href="interests.html">Interests</a></div>
+        </div>
+        <br>
+        <br>
+        <div id="index_container">
+            <div id="my_info">
+                <img src="my_portrait.jpg" id="portrait" alt="sample" width="300px" height="300px">
+                <br>
+                <h1>Angelo Troncone</h1>
+                <h2>Programer</h2>
+            </div>
+            <div id="index_info">
+                <h1>About me</h1>
+                <br>
+                <p>I am currently studying software engineering at the University of Calgary.</p>
+                <p>Here are a few points about me:</p>
+                <table>
+                    <tr>
+                        <td><input type="checkbox" id="point1" value="Point1"></td>
+                        <td><label for="point1">I play a D/D deck</label></td>
+                        <td><input type="checkbox" id="point2" value="Point2"></td>
+                        <td><label for="point2">My favourite colour is indigo</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="point3" value="Point3"></td>
+                        <td><label for="point3">I am part of the dueling team "The Lancers"</label></td>
+                        <td><input type="checkbox" id="point4" value="Point4"></td>
+                        <td><label for="point4">I have been offered to become a Quatre Knight</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="point5" value="Point5"></td>
+                        <td><label for="point5">My favourite Yu-Gi-Oh! card is "Go! - D/D/D Divine Zero King Rage" </label></td>
+                        <td><input type="checkbox" id="point6" value="Point6"></td>
+                        <td><label for="point6">I made a web server in C like a true Sigma</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" id="point7" value="Point7"></td>
+                        <td><label for="point7">My favourite Pokémon is Weavile</label></td>
+                        <td><input type="checkbox" id="point8" value="Point8"></td>
+                        <td><label for="point8">Pend best deck</label></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </div>
-    <br>
-    <br>
-    <img src="screenshots/fb7.jpg" alt="sample" width="270" height="202">
-    <br>
-    <h1>Angelo Troncone</h1>
-    <p>I am currently studying software engineering at the University of Calgary.</p>
-    <p>Here are a few points about me:</p>
-    <table>
-        <tr>
-            <td><input type="checkbox" id="point1" value="Point1"></td>
-            <td><label for="point1">I play a D/D deck</label></td>
-            <td><input type="checkbox" id="point2" value="Point2"></td>
-            <td><label for="point2">My favourite colour is indigo</label></td>
-        </tr>
-        <tr>
-            <td><input type="checkbox" id="point3" value="Point3"></td>
-            <td><label for="point3">I am part of the dueling team "The Lancers"</label></td>
-            <td><input type="checkbox" id="point4" value="Point4"></td>
-            <td><label for="point4">I have been offered to become a Quatre Knight</label></td>
-        </tr>
-        <tr>
-            <td><input type="checkbox" id="point5" value="Point5"></td>
-            <td><label for="point5">My favourite Yu-Gi-Oh! card is "Go! - D/D/D Divine Zero King Rage" </label></td>
-            <td><input type="checkbox" id="point6" value="Point6"></td>
-            <td><label for="point6">I made a web server in C like a true Sigma</label></td>
-        </tr>
-        <tr>
-            <td><input type="checkbox" id="point7" value="Point7"></td>
-            <td><label for="point7">My favourite Pokémon is Weavile</label></td>
-            <td><input type="checkbox" id="point8" value="Point8"></td>
-            <td><label for="point8">Pend best deck</label></td>
-        </tr>
-    </table>
 </body>
 </html>
