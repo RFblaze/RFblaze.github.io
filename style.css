@@ -36,9 +36,6 @@ a:hover {
     border-radius: 150px;
 }
 
-#index_container{
-    display: flex;
-}
 #my_info{
     margin-left: 10%;
     justify-content: center;
@@ -52,12 +49,25 @@ a:hover {
     text-align: center;
 }
 
-#index_info{
+#container{
+    display: flex;
+}
+
+#page_info{
     margin-left: 5%;
     padding-left: 3%;
     border-left: 1px solid #252525;
 }
 
-#index_info h1{
+#page_info h1{
     margin-bottom: 5%;
+}
+
+#page_info table{
+    display: flex;
+    flex-direction: column;
+}
+
+#page_info td{
+
 }
