@@ -68,7 +68,7 @@ a:hover {
     flex-direction: column;
 }
 
-#education{
+.table{
     width: 100%;
     display: table !important;
 }
@@ -83,11 +83,6 @@ a:hover {
 
 .times {
     text-align: right;
-}
-
-#skill_set{
-    width: 100%;
-    display: table !important;
 }
 
 .expertise{
