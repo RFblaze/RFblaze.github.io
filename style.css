@@ -3,7 +3,7 @@
 body{
     width: 100%;
     margin: 0;
-    font-family: Cambria
+    font-family: monocraft;
 }
 
 #navbar{
@@ -36,9 +36,12 @@ a:hover {
     border-radius: 150px;
 }
 
+#container{
+    display: flex;
+}
+
 #my_info{
     margin-left: 10%;
-    justify-content: center;
 }
 
 #my_info h1{
@@ -49,13 +52,10 @@ a:hover {
     text-align: center;
 }
 
-#container{
-    display: flex;
-}
-
 #page_info{
     margin-left: 5%;
     padding-left: 3%;
+    width: 50%;
     border-left: 1px solid #252525;
 }
 
@@ -68,3 +68,19 @@ a:hover {
     flex-direction: column;
 }
 
+#education{
+    width: 100%;
+    display: table !important;
+}
+
+#education td{
+    padding-top: 10px;
+}
+
+.credential {
+    font-size: larger;
+}
+
+.times {
+    text-align: right;
+}
