@@ -88,3 +88,9 @@ a:hover {
 .expertise{
     width: 60%;
 }
+
+@media screen and (max-width: 800px) {
+    body {
+      background-color: blue;
+    }
+  }
