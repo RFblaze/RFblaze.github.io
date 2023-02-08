@@ -84,3 +84,12 @@ a:hover {
 .times {
     text-align: right;
 }
+
+#skill_set{
+    width: 100%;
+    display: table !important;
+}
+
+.expertise{
+    width: 60%;
+}
