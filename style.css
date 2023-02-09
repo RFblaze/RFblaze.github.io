@@ -3,7 +3,7 @@
 body{
     width: 100%;
     margin: 0;
-    font-family: monocraft;
+    font-family: 'Segoe UI', "Cambria";
 }
 
 #navbar{
@@ -16,7 +16,11 @@ body{
 
 #navbar a{
     flex: 1;
-    margin: 50px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 a {
@@ -41,15 +45,20 @@ a:hover {
 }
 
 #my_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-left: 10%;
 }
 
 #my_info h1{
     text-align: center;
+    margin-top: 0px;
 }
 
-#my_info h2{
+#my_info h3{
     text-align: center;
+    margin-top: 0;
 }
 
 #page_info{
@@ -60,7 +69,7 @@ a:hover {
 }
 
 #page_info h1{
-    margin-bottom: 5%;
+    margin-bottom: 20px;
 }
 
 #page_info table{
@@ -81,6 +90,10 @@ a:hover {
     font-size: larger;
 }
 
+.location{
+    text-align: left;
+}
+
 .times {
     text-align: right;
 }
@@ -89,8 +102,60 @@ a:hover {
     width: 60%;
 }
 
-@media screen and (max-width: 800px) {
-    body {
-      background-color: blue;
+@media screen and (max-width: 900px) {
+    #navbar{
+        flex-direction: column;
+        align-items: center;
     }
-  }
+
+    #navbar a{
+        font-size: larger;
+    }
+
+    #container{
+        flex-direction: column;
+    }
+
+    #my_info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    #page_info{
+        border-left: 0px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: auto;
+    }
+
+    #page_info p{
+        text-align: center;
+    }
+
+    .table{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #exp_table .times{
+        text-align: right;
+    }
+
+    #exp_table .credential{
+        text-align: left;
+    }
+
+    #educ_table .times{
+        text-align: right;
+    }
+
+    #educ_table .credential{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 900px) {}
